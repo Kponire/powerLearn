@@ -11,22 +11,22 @@ class Calculation:
     @staticmethod
     def addition(x, y):
         result = x + y
-        print(result)
+        print(f"{x} + {y} = {result}")
     
     @staticmethod
     def substraction(x, y):
         result = x - y
-        print(result)   
+        print(f"{x} - {y} = {result}")   
         
     @staticmethod
     def division(x, y):
         result = x * y
-        print(result)
+        print(f"{x} * {y} = {result}")
        
     @staticmethod
     def multiplication(x, y):
         result = x / y
-        print(result)
+        print(f"{x} / {y} = {result}")
        
 first_value = convert_string_to_int(input("Input your first number: "))
 second_value = convert_string_to_int(input("Input your second number: "))
